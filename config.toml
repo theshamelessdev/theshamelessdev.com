@@ -1,0 +1,4 @@
+baseURL = "https://theshamelessdev.com/"
+languageCode = "en-us"
+title = "The Shameless Dev"
+theme = "beautifulhugo"
