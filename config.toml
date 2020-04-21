@@ -1,4 +1,49 @@
-baseURL = "https://theshamelessdev.com/"
-languageCode = "en-us"
-title = "The Shameless Dev"
-theme = "beautifulhugo"
+baseurl         = "https://theshamelessdev.com/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "The Shameless Dev"
+  subtitle    = ""
+
+  cover       = ""
+  description = "Tech blog where I share my shameful learnings."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "DevShameless"
+  githubName = "theshamelessdev"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://theshamelessdev.com/"
+  orgDescription = "The almost anonymous organization behind TSD"
+
+  author = "TSD"
+  authorAvatar = "g"
+  authorLocation = "Decentralized"
+  authorWebsite = "https://github.com/theshamelessdev"
+  authorDescription = "Someone who wants to share shameful things without feeling ashamed."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Manifesto"
+  url = "/manifesto"
+  weight = 100
