@@ -36,7 +36,7 @@ paginate        = 6
   singleViewStyle = "casper"
 
 [permalinks]
-  post = "/:slug/"
+  post = "/post/:slug/"
 
 [[menu.main]]
   name = "Home"
