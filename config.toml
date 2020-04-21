@@ -1,49 +1,55 @@
-baseurl         = "https://theshamelessdev.com/"
-theme           = "casper-two"
-languageCode    = "en-US"
+baseurl = "https://theshamelessdev.com/"
+title = "The Shameless Dev"
+theme = "casper3"
+languageCode = "en-US"
 disqusShortname = ""
-paginate        = 6
-#SectionPagesMenu = "main"
+paginate = 6
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
 
 [params]
-  title       = "The Shameless Dev"
-  subtitle    = ""
+twitter = "https://twitter.com/devshameless"
+github = "https://github.com/theshamelessdev"
+description = ""
+mainSections = ["post"]
 
-  cover       = ""
-  description = "Tech blog where I share my shameful learnings."
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
-
-  twitterName = "DevShameless"
-  githubName = "theshamelessdev"
-
-  logo = ""
-  orgName = "EM"
-  orgWebsite = "https://theshamelessdev.com/"
-  orgDescription = "The almost anonymous organization behind TSD"
-
-  author = "TSD"
-  authorAvatar = "g"
-  authorLocation = "Decentralized"
-  authorWebsite = "https://github.com/theshamelessdev"
-  authorDescription = "Someone who wants to share shameful things without feeling ashamed."
-
-  pageNotFoundTitle = "404 - Page not found"
-
-  #casper or caspertwo
-  singleViewStyle = "casper"
-
-[permalinks]
-  post = "/post/:slug/"
+[menu]
 
 [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 200
+identifier = "manifesto"
+name = "Manifesto"
+url = "/manifesto/"
+weight = 10
 
-[[menu.main]]
-  name = "Manifesto"
-  url = "/manifesto"
-  weight = 100
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services]
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
