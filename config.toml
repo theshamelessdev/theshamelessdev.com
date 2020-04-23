@@ -9,7 +9,7 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 [params]
-twitter = "https://twitter.com/devshameless"
+twitter = "https://twitter.com/ShamelessDev"
 github = "https://github.com/theshamelessdev"
 description = ""
 mainSections = ["post"]
