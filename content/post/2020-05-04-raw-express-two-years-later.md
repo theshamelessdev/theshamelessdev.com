@@ -15,7 +15,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
-Express is one of my favorite lib. Once comfortable with it powerful things can be built in a matter of minutes.
+Express is one of my favorite lib. Once comfortable with it powerful things can be built in a matter of minutes. And it's really quick to grasp.
 
 While it can basically do anything, the main drawback is the freedom it gives you (much like JS itself).
 
