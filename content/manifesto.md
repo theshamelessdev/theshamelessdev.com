@@ -4,22 +4,18 @@ date: 2020-04-21T10:36:07+02:00
 draft: false
 ---
 
-Look back on your mistakes.
+## A collection of over the counter terms that drive this blog
+
+Learn from your mistakes.
+
+Sharing is learning.
 
 Stop using complicated terms to explain concepts.
 
-Do not feel ashamed, everyone knows you're smart.
+Everyone knows you're smart, don't be ashamed of what you don't know.
 
-It takes a smart mind to admit mistakes without shame.
+Don't feel you aren't smart enough.
 
-Admit you did it wrong.
+It takes a smart mind to admit wrong doing.
 
-Actually we're hipocrits cause this is an anonymous site.
-
-Do not mention names or companies, we focus on the learning here, not blame.
-
-Share what you learnt.
-
-Open for all.
-
-The first person is used just to ease the writing.
+`git blame` should be called `git praise`.
