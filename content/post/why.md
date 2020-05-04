@@ -1,7 +1,8 @@
 ---
-title: "Why"
-date: 2020-04-21T10:38:33+02:00
+title: Why
+date: 2020-04-21T08:38:33.000Z
 draft: false
+description: Why this blog exists and what you can expect
 ---
 
 Googling things is a major part of coding. I'm still to meet the engineer who remembers the all CLI commands of their project's workflow.
