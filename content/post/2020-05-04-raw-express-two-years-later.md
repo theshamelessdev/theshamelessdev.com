@@ -2,6 +2,7 @@
 title: Raw Express, two years later
 date: 2020-05-04T18:30:54.140Z
 description: Things can grow out of hands quicker than you think
+summary: Things can grow out of hands faster than you plan
 ---
 ```javascript
 // https://expressjs.com/en/starter/hello-world.html
