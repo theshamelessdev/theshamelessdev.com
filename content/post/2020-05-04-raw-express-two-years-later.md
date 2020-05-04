@@ -3,11 +3,18 @@ title: Raw Express, two years later
 date: 2020-05-04T18:30:54.140Z
 description: Things can grow out of hands quicker than you think
 ---
-```js
+```javascript
+// https://expressjs.com/en/starter/hello-world.html
+const express = require('express')
+const app = express()
+const port = 3000
 
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
-Express is one of my favorite lib. Once confortable with it powerful things can be built in a matter of minutes.
+Express is one of my favorite lib. Once comfortable with it powerful things can be built in a matter of minutes.
 
 While it can basically do anything, the main drawback is the freedom it gives you (much like JS itself).
 
@@ -17,9 +24,9 @@ Like many we built our app with express using our version of a smart architectur
 
 For the sake of this article let's say it's just your average SaaS application. We have a bunch of fancy things running but that happens outside of Express (Bull can be a cool topic for another article).
 
-The application is mature enoo reflect on it. A good indicator of maturity I thing (and maintenance chaos) is that it's been a while since we added an endpoint.
+The application is mature enough reflect on it. A good indicator of maturity I thing (and maintenance chaos) is that it's been a while since we added an endpoint.
 
-The server has 110 routes. Most of them to interacte with a MySQL database. Some create background jobs that in turn trigger websocket events. It also serves static files.
+The server has 110 routes. Most of them to interact with a MySQL database. Some create background jobs that in turn trigger websocket events. It also serves static files.
 
 Plain express with vanilla nodejs 10.16.3.
 
