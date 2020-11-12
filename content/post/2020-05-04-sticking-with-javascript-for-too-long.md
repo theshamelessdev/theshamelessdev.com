@@ -29,7 +29,7 @@ Even more so when it's hidden. At least the explicit call make you acknowledge t
 
 ## Operations
 
-That's where it gets funny! And all credit goes to Mr. Gary Bernhardt famous [Wat talk](%5B%3Chttps://www.destroyallsoftware.com/talks/wat%3E%5D(%3Chttps://www.destroyallsoftware.com/talks/wat%3E)).
+That's where it gets funny! And all credit goes to Mr. Gary Bernhardt famous [Wat](https://www.destroyallsoftware.com/talks/wat) talk.
 
 There's almost no harm behind a cute `'item' + 1` but try those out:
 
